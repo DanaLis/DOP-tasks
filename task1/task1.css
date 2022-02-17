@@ -1,0 +1,26 @@
+div {
+    display: none;
+}
+
+@media print {
+    .print {
+        display:block;
+
+    }
+}
+
+@media screen {
+    .screens {
+        display:block;
+    }
+}
+
+@media screen and (max-device-width: 450px) {
+    .handheld {
+        display:block;
+    }
+    .screens {
+        display:none;
+    }
+}
+
