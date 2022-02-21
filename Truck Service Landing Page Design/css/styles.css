@@ -1,0 +1,235 @@
+:root {
+  --bg-white-color: #FFFFFF;
+  --bg-gray-color: #F4F4F4;
+  --card-gray-color: #F4F6FA;
+  --bg-footer-color: #1A1A1A;
+  --button-color: #4762FF;
+
+}
+
+html {
+  box-sizing: border-box;
+  width: 1440px;
+}
+
+body {
+  margin: 19px 165px;
+  background-color: var(--bg-white-color);
+}
+
+.flex{
+  display: flex;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-top{
+  
+}
+
+.header-left-col {
+  flex-direction: column;
+  row-gap: 4px;
+  margin-right: 45px;
+}
+
+.header-center-col {
+  flex-direction: column;
+  row-gap: 4px;
+  padding-left: 19px;
+  border-left: 1px solid rgba(51, 51, 51, 0.1);
+ 
+}
+
+.header-right-col {
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.header-upper {
+  column-gap: 8px;
+  margin: 0;
+  align-items: center;
+}
+
+.header-bottom {
+  margin-left: 22px;
+}
+
+/* icons */
+
+[class^="icon-"], [class*=" icon-"] {
+
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Whatsapp:before {
+  content: "\e900";
+  color: #fff;
+}
+
+.icon-clock:before {
+  content: "\e901";
+}
+
+.icon-phone:before {
+  content: "\e902";
+}
+
+.icon-Facebook:before {
+  content: "\e903";
+  color: #f5f5f6;
+}
+
+.icon-location:before {
+  content: "\e904";
+}
+
+.icon-Instagram:before {
+  content: "\e905";
+  color: #f5f5f6;
+}
+
+/* Typography */
+
+.inter-14-400-info {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.inter-14-500-info{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(51, 51, 51, 0.7);
+}
+
+.inter-16-500-menu{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.inter-16-600-button{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.inter-18-600-button{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.inter-18-600-button{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.inter-60-bold{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 76px;
+}
+
+.inter-40-bold{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.inter-18-400{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.inter-24-bold-card-header{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.inter-16-400-card{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.inter-48-bold{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.inter-48-bold{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.inter-56-bold{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+}
+
+.inter-20-500-footer-header{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.inter-12-400-copyright{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 112px;
+  line-height: 24px;
+}
+
