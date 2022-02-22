@@ -1,9 +1,9 @@
 :root {
-  --white-color: #FFFFFF;
-  --bg-gray-color: #F4F4F4;
-  --card-gray-color: #F4F6FA;
-  --bg-footer-color: #1A1A1A;
-  --button-color: #4762FF;
+  --white-color: #ffffff;
+  --bg-gray-color: #f4f4f4;
+  --card-gray-color: #f4f6fa;
+  --bg-footer-color: #1a1a1a;
+  --button-color: #4762ff;
 
 }
 
@@ -140,6 +140,7 @@ body {
 .card-box {
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .card-info {
@@ -170,7 +171,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 36px;
   row-gap: 32px;
-  margin: 48px 32px 48px 32px;
+  margin: 48px 32px;
   
 }
 
@@ -266,18 +267,21 @@ body {
 /* map-box*/
 
 .map-box {
-  width: 100%;
-  padding-top: 67px;
-  column-gap: 70px;
+  width: 1440px;
+  column-gap: 21px;
+  align-items: center;
+  background-color: var(--bg-gray-color);
+  margin-left: -165px;
   }
   
   .map-box-info-part {
   flex-direction: column;
   row-gap: 16px;
+  padding: 96px 0 188px 165px;
   }
   
   .map-box-text-header {
-  margin: 0;
+  margin: 0px;
   width: 506px;
   height: 58px;
   }
