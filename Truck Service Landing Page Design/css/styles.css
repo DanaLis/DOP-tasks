@@ -263,6 +263,32 @@ body {
   grid-row-start: 3;
 }
 
+/* map-box*/
+
+.map-box {
+  width: 100%;
+  padding-top: 67px;
+  column-gap: 70px;
+  }
+  
+  .map-box-info-part {
+  flex-direction: column;
+  row-gap: 16px;
+  }
+  
+  .map-box-text-header {
+  margin: 0;
+  width: 506px;
+  height: 58px;
+  }
+  
+  .map-box-text {
+  width: 540px;
+  height: 158px;
+  flex-direction: column;
+  row-gap: 22px;
+  }
+
 /* icons */
 
 [class^="icon-"], [class*=" icon-"] {
