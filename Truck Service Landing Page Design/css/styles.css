@@ -170,7 +170,8 @@ body {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 36px;
   row-gap: 32px;
-  margin-top: 48px;
+  margin: 48px 32px 48px 32px;
+  
 }
 
 .card-item {
@@ -202,6 +203,64 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+/* logo-box */
+
+.logo-box {
+  width: 100%;
+  padding: 67px 0;
+  column-gap: 70px;
+  justify-content: space-between;
+}
+
+.logo-box-info-part {
+  flex-direction:column;
+  width: 576px;
+  height: 290px;
+  row-gap: 16px;
+}
+
+.logo-box-text-header {
+  margin: 0;
+}
+
+.logo-box-text {
+  width: 100%;
+  flex-direction: column;
+  row-gap: 22px;
+}
+
+.logo-box-logo-part {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  align-items: center;
+}
+
+.scania {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.volvo {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.man {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.daf {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.reno {
+  grid-column-start: 3;
+  grid-row-start: 3;
 }
 
 /* icons */
@@ -341,14 +400,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: rgba(51, 51, 51, 0.8);
-}
-
-.inter-48-bold{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 58px;
 }
 
 .inter-48-bold{
