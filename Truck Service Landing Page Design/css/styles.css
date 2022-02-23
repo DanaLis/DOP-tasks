@@ -10,6 +10,7 @@
 html {
   box-sizing: border-box;
   width: 1440px;
+  align-items: center;
 }
 
 body {
@@ -349,11 +350,74 @@ body {
   border-radius: 8px;
 }
 
+/* footer */
+
+.footer {
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 391px;
+  background-color: var(--bg-footer-color);
+  margin-left: -165px;
+}
+
+.footer-info {
+  height: 213px;
+  column-gap: 76px;
+  align-items: start;
+  padding: 50px 0 67px 0;
+  border-bottom: 0.7px solid #474747;
+}
+
+.footer-col-box {
+  width: 887px;
+  height: 213px;
+  column-gap: 13px;
+}
+
+.footer-cols {
+  flex-direction: column;
+  width: 285px;
+  row-gap: 15px;
+}
+
+.info-center-col {
+  flex-direction: column;
+  row-gap: 19px;
+}
+
+.footer-cols-content {
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.col-bottom {
+  justify-content: left;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: flex-start;
+}
+
+.contact-row {
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  column-gap: 5px;
+}
+
+.footer-copyright {
+  flex-direction: row;
+  height: 61px;
+  width: 1160px;
+  padding: 18px 0 18px 0;
+  align-items:center;
+}
+
 /* icons */
 
 [class^="icon-"], [class*=" icon-"] {
 
-  font-family: 'icomoon' !important;
+  font-family: 'IconFont' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -366,29 +430,29 @@ body {
 }
 
 .icon-Whatsapp:before {
-  content: "\e900";
+  content: "\e905";
   color: #fff;
 }
 
 .icon-clock:before {
-  content: "\e901";
+  content: "\e904";
 }
 
 .icon-phone:before {
-  content: "\e902";
+  content: "\e903";
 }
 
 .icon-Facebook:before {
-  content: "\e903";
+  content: "\e902";
   color: #f5f5f6;
 }
 
 .icon-location:before {
-  content: "\e904";
+  content: "\e901";
 }
 
 .icon-Instagram:before {
-  content: "\e905";
+  content: "\e900";
   color: #f5f5f6;
 }
 
@@ -418,6 +482,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+.inter-16-500-footer{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }
 
 .inter-16-600-button{
@@ -479,13 +552,22 @@ body {
   line-height: 29px;
 }
 
-.inter-16-400-card{
+.inter-16-400-card {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: rgba(51, 51, 51, 0.8);
+}
+
+.inter-16-400-footer {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
 }
 
 .inter-48-bold{
@@ -510,13 +592,15 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  color: #ffffff;
 }
 
 .inter-12-400-copyright{
   font-family: Inter;
   font-style: normal;
   font-weight: 400;
-  font-size: 112px;
+  font-size: 12px;
   line-height: 24px;
+  color: #d9dbe1;
 }
 
