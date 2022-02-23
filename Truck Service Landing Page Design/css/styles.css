@@ -1,5 +1,5 @@
 :root {
-  --white-color: #ffffff;
+  --white-color: #fff;
   --bg-gray-color: #f4f4f4;
   --card-gray-color: #f4f6fa;
   --bg-footer-color: #1a1a1a;
@@ -51,7 +51,7 @@ body {
   border-left: 1px solid rgba(51, 51, 51, 0.1);
 }
 
-.header-right-col {
+.header-right-part {
   flex-direction: column;
   row-gap: 2px;
 }
@@ -72,7 +72,7 @@ body {
   height: 77px;
 }
 
-.header-bottom-left-part {
+.header-bottom-menu{
   column-gap: 117px;
   align-items: center;
   margin-left: -11px;
@@ -82,6 +82,10 @@ body {
   cursor: pointer;
   align-items: center;
   column-gap: 46px;
+}
+
+.menu-link {
+  text-decoration: none;
 }
 
 .button {
@@ -97,7 +101,7 @@ body {
   border-radius: 5px;
 }
 
-.header-bottom-right-part {
+.header-button {
   align-items: center;
 }
 
@@ -109,18 +113,18 @@ body {
   justify-content: space-between;
 }
 
-.info-box {
+.preview-info {
   width: 540px;
   height: 296px;
   flex-wrap: wrap;
 }
 
-.info-box-header {
+.preview-info-header {
   margin-top: 77px;
   margin-bottom: 16px;
 }
 
-.text-content {
+.preview-info-text {
   width: 496px;
   height: 44px;
   margin-bottom: 32px;
@@ -138,13 +142,13 @@ body {
 
 /* card-box */
 
-.card-box {
+.service {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.card-info {
+.service-info {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -153,7 +157,7 @@ body {
   margin-top: 29px;
   }
   
-.header-card {
+.service-info-header {
   text-align: center;
   width: 648px;
   height: 48px;
@@ -161,19 +165,18 @@ body {
   margin-bottom: 0;
 }
 
-.card-text {
+.service-info-text {
   width: 540px;
   height: 44px;
   text-align: center;
 }
 
-.card-part {
+.service-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 36px;
   row-gap: 32px;
   margin: 48px 32px;
-  
 }
 
 .card-item {
@@ -185,17 +188,17 @@ body {
   border-radius: 9px;
 }
 
-.card-content {
+.card-info {
   flex-direction: column;
 }
 
-.header-card-content {
+.card-info-header {
   margin: 0;
   width: 366px;
   height: 58px;
 }
 
-.text-card-content {
+.card-info-text {
   width: 253px;
   height: 76px;
   margin-top: 15px;
@@ -209,31 +212,31 @@ body {
 
 /* logo-box */
 
-.logo-box {
+.logo {
   width: 100%;
   padding: 67px 0;
   column-gap: 70px;
   justify-content: space-between;
 }
 
-.logo-box-info-part {
+.logo-info {
   flex-direction:column;
   width: 576px;
   height: 290px;
   row-gap: 16px;
 }
 
-.logo-box-text-header {
+.logo-info-header {
   margin: 0;
 }
 
-.logo-box-text {
+.logo-info-text {
   width: 100%;
   flex-direction: column;
   row-gap: 22px;
 }
 
-.logo-box-logo-part {
+.logo-grid {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(3, auto);
@@ -267,7 +270,7 @@ body {
 
 /* map-box*/
 
-.map-box {
+.map {
   width: 1440px;
   column-gap: 21px;
   align-items: center;
@@ -275,19 +278,19 @@ body {
   margin-left: -165px;
   }
   
-.map-box-info-part {
+.map-info {
   flex-direction: column;
   row-gap: 16px;
   padding: 96px 0 188px 165px;
   }
   
-.map-box-text-header {
+.map-info-header {
   margin: 0px;
   width: 506px;
   height: 58px;
 }
   
-.map-box-text {
+.map-info-text {
   width: 540px;
   height: 158px;
   flex-direction: column;
@@ -305,7 +308,7 @@ body {
   align-items: center;
 }
 
-.question-block {
+.question-window {
   flex-direction: column;
   row-gap: 36px;
   background-color: var(--white-color);
@@ -314,21 +317,21 @@ body {
   padding: 39px 71px;
 }
 
-.question-block-info {
+.window-info {
   flex-direction: column;
   row-gap: 16px;
 }
 
-.question-info-header {
+.window-info-header {
   margin: 0;
 }
 
-.question-info-text {
+.window-info-text {
   width: 467px;
   height: 44px;
 }
 
-.input-block {
+.window-input {
   flex-direction: column;
   row-gap: 23px;
 }
@@ -345,7 +348,7 @@ body {
   padding-left: 20px;
 }
 
-.send-button {
+.question-button {
   height: 66px;
   border-radius: 8px;
 }
@@ -386,7 +389,7 @@ body {
   row-gap: 19px;
 }
 
-.footer-cols-content {
+.footer-cols-text {
   flex-direction: column;
   row-gap: 8px;
 }
