@@ -479,7 +479,7 @@ body {
   
 }
 
-.inter-14-500-info{
+.inter-14-500-info {
   color: rgba(51, 51, 51, 0.7);
   font-family: Inter;
   font-size: 14px;
@@ -488,7 +488,7 @@ body {
   line-height: 17px;
 }
 
-.inter-16-500-menu{
+.inter-16-500-menu {
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -496,7 +496,7 @@ body {
   line-height: 19px;
 }
 
-.inter-16-500-footer{
+.inter-16-500-footer {
   color: #ffffff;
   font-family: Inter;
   font-size: 16px;
@@ -505,7 +505,7 @@ body {
   line-height: 19px;
 }
 
-.inter-16-600-button{
+.inter-16-600-button {
   color: var(--white-color);
   font-family: Inter;
   font-size: 16px;
@@ -514,7 +514,7 @@ body {
   line-height: 20px;
 }
 
-.inter-18-600-button{
+.inter-18-600-button {
   color: var(--white-color);
   font-family: Inter;
   font-size: 18px;
@@ -523,7 +523,7 @@ body {
   line-height: 30px;
 }
 
-.inter-18-600-button{
+.inter-18-600-button {
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -531,7 +531,7 @@ body {
   line-height: 22px;
 }
 
-.inter-60-bold{
+.inter-60-bold {
   font-family: Inter;
   font-size: 60px;
   font-style: normal;
@@ -539,7 +539,7 @@ body {
   line-height: 76px;
 }
 
-.inter-40-bold{
+.inter-40-bold {
   font-family: Inter;
   font-size: 40px;
   font-style: normal;
@@ -547,7 +547,7 @@ body {
   line-height: 48px;
 }
 
-.inter-18-400{
+.inter-18-400 {
   color: rgba(51, 51, 51, 0.8);
   font-family: Inter;
   font-size: 18px;
@@ -556,7 +556,7 @@ body {
   line-height: 22px;
 }
 
-.inter-24-bold-card-header{
+.inter-24-bold-card-header {
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
@@ -582,7 +582,7 @@ body {
   line-height: 19px;
 }
 
-.inter-48-bold{
+.inter-48-bold {
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -590,7 +590,7 @@ body {
   line-height: 58px;
 }
 
-.inter-56-bold{
+.inter-56-bold {
   font-family: Inter;
   font-size: 56px;
   font-style: normal;
@@ -598,7 +598,7 @@ body {
   line-height: 68px;
 }
 
-.inter-20-500-footer-header{
+.inter-20-500-footer-header {
   color: #ffffff;
   font-size: 20px;
   font-family: Inter;
@@ -607,7 +607,7 @@ body {
   line-height: 24px;
 }
 
-.inter-12-400-copyright{
+.inter-12-400-copyright {
   color: #d9dbe1;
   font-family: Inter;
   font-size: 12px;
